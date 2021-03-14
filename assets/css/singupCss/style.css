@@ -1,0 +1,57 @@
+
+#home-section {
+    background: url(/assets/img/singup/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#home-section .dark-overlay {
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(53, 53, 53, 0.4);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .checks {
+    margin: 20px 0;
+}
+
+#home-section .card-form {
+opacity: 1;
+background-color: rgb(40, 123, 123);
+    /* height: 50vh; */
+}
+
+.card-body {
+    color: white;
+    font-size: 30px;
+}
+
+.pad {
+    margin-top: 30px;
+}
+.headPad {
+    margin-top: 50px;
+}
+
+.txt {
+    color: #000;
+    font-size: 20px;
+}
+
+/* Home check background */
+#home-section .fa, #create-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+
